@@ -25,7 +25,7 @@ function FooterNav() {
                 <div className="footer-nav-item">
                     <div
                         className="ml-2 hover:cursor-pointer hover:text-primary-4"
-                        onClick={() => navSection("home")}
+                        onClick={() => navSection("shop")}
                     >
                         Shop
                     </div>
@@ -36,7 +36,7 @@ function FooterNav() {
                 <div className="footer-nav-item">
                     <div
                         className="ml-2 hover:cursor-pointer hover:text-primary-4"
-                        onClick={() => navSection("home")}
+                        onClick={() => navSection("register")}
                     >
                         Sign Up
                     </div>
@@ -47,7 +47,7 @@ function FooterNav() {
                 <div className="footer-nav-item">
                     <div
                         className="ml-2 hover:cursor-pointer hover:text-primary-4"
-                        onClick={() => navSection("home")}
+                        onClick={() => navSection("login")}
                     >
                         Log In
                     </div>
